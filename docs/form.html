@@ -1,14 +1,10 @@
-
-
-
-
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 <head>
 <!-- for sharing button script start-->
-<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=59801951e1d7050012e12c14&product=inline-share-buttons"></script>
+<script type="text/javascript" src="js/sharethis.js"></script>
 <!-- for sharing button script end-->
 
 <meta charset="UTF-8">
@@ -1119,7 +1115,7 @@ $(document).ready(function(){
 			if(checkvalidation) {
 				$.ajax({
 					type: 'POST',
-					url: '/wp-admin/admin-ajax.php',
+					url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 					data: 'action=checkemail&emailid='+emailid,
 					success: function(data) {
 						if(data.trim() == "Yes")
@@ -1156,7 +1152,7 @@ $(document).ready(function(){
 			if(checkvalidation) {
 				$.ajax({
 					type: 'POST',
-					url: '/wp-admin/admin-ajax.php',
+					url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 					data: 'action=checkemail&emailid='+emailid,
 					success: function(data) {
 						if(data.trim() == "Yes")
@@ -1193,7 +1189,7 @@ $(document).ready(function(){
 		jQuery.ajax({
 			type: 'POST',
 			dataType: 'json',
-			url: '/wp-admin/admin-ajax.php',
+			url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 			data: 'action=get_organisation&name='+name.term,
 			success: function(data) {
 				response(data);
@@ -1224,7 +1220,7 @@ $(document).ready(function(){
 		jQuery.ajax({
 			type: 'POST',
 			dataType: 'json',
-			url: '/wp-admin/admin-ajax.php',
+			url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 			data: 'action=get_jobtitle&name='+name.term,
 			success: function(data) {
 				response(data);
@@ -1376,7 +1372,7 @@ jQuery('#firststep button').click(function(event){
 
    jQuery.ajax({
 		type: 'POST',
-		url: '/wp-admin/admin-ajax.php',
+		url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 		data: data2 + '&action=get_all_details',
 		success: function(data) {
 			jQuery("#formdetails").html(data);
@@ -1408,7 +1404,7 @@ jQuery('#firststep button').click(function(event){
 		if(document.getElementById('accept').checked) {
 			jQuery.ajax({
 				type: 'POST',
-				url: '/wp-admin/admin-ajax.php',
+				url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 				data:data2+'&action=existingusermail',
 				success: function(data) {
 					location.href = baseurl + "thanks";
@@ -1596,7 +1592,7 @@ $(document).ready(function(){
 		var course = jQuery('#ugcoursename').val();
 		jQuery.ajax({
 			type: 'POST',
-			url: '/wp-admin/admin-ajax.php',
+			url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 			data: 'action=get_UG_name&course='+course,
 			success: function(data) {
 				$("#ugcourse").html("");
@@ -1609,7 +1605,7 @@ $(document).ready(function(){
 		var course = jQuery('#pgcoursename').val();
 		jQuery.ajax({
 			type: 'POST',
-			url: '/wp-admin/admin-ajax.php',
+			url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 			data: 'action=get_PG_name&course='+course,
 			success: function(data) {
 				$("#pgcourse").html("");
@@ -1621,7 +1617,7 @@ $(document).ready(function(){
 	var phdcoursename = jQuery('#phdcoursename1').val();
 	jQuery.ajax({
 			type: 'POST',
-			url: '/wp-admin/admin-ajax.php',
+			url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 			data: 'action=get_phd',
 			success: function(data) {
 				$("#phdcoursename").html("");
@@ -1631,7 +1627,7 @@ $(document).ready(function(){
 		});
 	jQuery.ajax({
 		type: 'POST',
-		url: '/wp-admin/admin-ajax.php',
+		url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 		data: 'action=get_job_sector',
 		    success: function(data) {
 			$("#jobfield").html("");
@@ -1642,7 +1638,7 @@ $(document).ready(function(){
 
 	jQuery.ajax({
 		type: 'POST',
-		url: '/wp-admin/admin-ajax.php',
+		url: 'https://www.aaceg.org/wp-admin/admin-ajax.php',
 		data: 'action=get_blood_group',
 		success: function(data) {
 			$("#blood_group").html("");
