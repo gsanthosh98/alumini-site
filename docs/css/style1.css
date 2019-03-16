@@ -2110,7 +2110,7 @@ div.wpcf7 input[type="file"] {
 
 .click-icon {
     background-color: rgb(203, 48, 0);
-    background-image: url("http://www.aaceg.org/wp-content/themes/aaceg/images/click-icon.png");
+    background-image: url("images/click-icon.png");
     background-repeat: no-repeat;
     color: rgb(255, 255, 255) !important;
     display: block;
@@ -2180,7 +2180,7 @@ div.wpcf7 input[type="file"] {
 }
 
 .thank-you-page .bg-thank-you.voting {
-    background-image: url("/wp-content/themes/aaceg/images/votes.jpg");
+    background-image: url("images/votes.jpg");
     background-repeat: no-repeat;
     border: 10px solid rgb(51, 51, 51);
     color: rgb(255, 255, 255);
