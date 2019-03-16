@@ -32,7 +32,7 @@
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/www.aaceg.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.9"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"js\/wp-emoji-release.min.js"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -73,14 +73,14 @@ img.emoji {
 <!--[if !IE]><!-->
 <link rel='stylesheet' id='tablepress-responsive-tables-flip-css'  href='css/tablepress-responsive-flip.min.css' type='text/css' media='all' />
 <!--<![endif]-->
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
 <!--[if lt IE 9]>
 <script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/html5.js?ver=4.8.9'></script>
 <![endif]-->
-<link rel='https://api.w.org/' href='https://www.aaceg.org/wp-json/' />
+<link rel='https://api.w.org/' href='json/files.json' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.aaceg.org/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.aaceg.org/wp-includes/wlwmanifest.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="xml/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 4.8.9" />
 <link rel='shortlink' href='https://www.aaceg.org/?p=66' />
 <link rel="alternate" type="application/json+oembed" href="https://www.aaceg.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.aaceg.org%2Fregistration%2F" />
@@ -147,7 +147,7 @@ img.qem-list-image {width:100%;height:auto;overflow:hidden;}
 
 
 </style>
-<link rel='stylesheet' id='siteorigin-panels-front-css'  href='//www.aaceg.org/wp-content/plugins/siteorigin-panels/inc/../css/front-flex.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='css/front-flex.css' type='text/css' media='all' />
 </head>
 
 
@@ -874,39 +874,38 @@ Sadar Patel Road Guindy, Chennai - 600 025.</div>
 
 <!-- ngg_resource_manager_marker --><!--[if !IE]><!-->
 <!--<![endif]-->
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='js/jquery.form.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var cf7mls_object = {"ajax_url":"https:\/\/www.aaceg.org\/wp-admin\/admin-ajax.php","cf7mls_error_message":"","scroll_step":"false"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/plugins/cf7-multi-step/assets/frontend/js/cf7mls.js?ver=1.0'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/plugins/quick-event-manager/quick-event-manager.js?ver=4.8.9'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/bootstrap.min.js?ver=20120206'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/jquery.knob.js?ver=20120206'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/smoothscroll.js?ver=20120206'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/scrollReveal.js?ver=20120206'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/themes/zerif-lite/js/zerif.js?ver=20120206'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='js/cf7mls.js'></script>
+<script type='text/javascript' src='js/quick-event-manager.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<script type='text/javascript' src='js/jquery.knob.js'></script>
+<script type='text/javascript' src='js/scrollReveal.js'></script>
+<script type='text/javascript' src='js/zerif.js'></script>
+<script type='text/javascript' src='js/core.min.js'></script>
+<script type='text/javascript' src='js/datepicker.min.js'></script>
 <script type='text/javascript'>
 jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
 </script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/plugins/awebooking/assets/js/front-end/awebooking.js?ver=3.0.0-beta2'></script>
+<script type='text/javascript' src='js/awebooking.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var booking_ajax = {"ajax_url":"https:\/\/www.aaceg.org\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/plugins/awebooking/assets/js/front-end/booking-handler.js?ver=3.0.0-beta2'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-includes/js/wp-embed.min.js?ver=4.8.9'></script>
-<script type='text/javascript' src='//www.aaceg.org/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=1.3.4'></script>
+<script type='text/javascript' src='js/booking-handler.js'></script>
+<script type='text/javascript' src='js/wp-embed.min.js'></script>
+<script type='text/javascript' src='js/scripts.js'></script>
 				<style type="text/css" media="all"
 				       id="siteorigin-panels-layouts-footer">/* Layout w5b2b3299a3872 */ #pgc-w5b2b3299a3872-0-0 , #pgc-w5b2b3299a3872-0-1 { width:50%;width:calc(50% - ( 0.5 * 30px ) ) } #pl-w5b2b3299a3872 .so-panel { margin-bottom:30px } #pl-w5b2b3299a3872 .so-panel:last-child { margin-bottom:0px } #pg-w5b2b3299a3872-0.panel-no-style, #pg-w5b2b3299a3872-0.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w5b2b3299a3872-0.panel-no-style, #pg-w5b2b3299a3872-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w5b2b3299a3872-0 .panel-grid-cell { margin-right:0 } #pg-w5b2b3299a3872-0 .panel-grid-cell { width:100% } #pgc-w5b2b3299a3872-0-0 { margin-bottom:30px } #pl-w5b2b3299a3872 .panel-grid-cell { padding:0 } #pl-w5b2b3299a3872 .panel-grid .panel-grid-cell-empty { display:none } #pl-w5b2b3299a3872 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style>
 
 
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="js/jquery-ui.js"></script>
+<link rel="stylesheet" href="css/jquery-ui.css">
 <!--country and state list-->
 <script>
 /*registraion-page-new*/
@@ -1381,7 +1380,7 @@ jQuery('#firststep button').click(function(event){
 			if(pdfcheck =="1" && certifyimg!="")
 			{
 				jQuery("#certi").html("");
-				jQuery("#certi").append('<dt><span class="number">5</span>Certificates</dt><dd><a class="pdf-icon" href="'+certifyimg+'" target="_blank"> <img src="'+baseurl+'wp-content/themes/aaceg/images/pdf-icon.png" width="40px" height="auto" />Test</a></dd>');
+				jQuery("#certi").append('<dt><span class="number">5</span>Certificates</dt><dd><a class="pdf-icon" href="'+certifyimg+'" target="_blank"> <img src="'+baseurl+'img/pdf-icon.png" width="40px" height="auto" />Test</a></dd>');
 			}
 			if(pdfcheck =="2" && certifyimg!="")
 			{
