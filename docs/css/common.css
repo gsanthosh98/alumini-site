@@ -1,0 +1,376 @@
+.registraion-form-new.main_jp_form { padding:20px 0px;     border: 2px solid rgb(144, 84, 148); }
+.page-template-registration_cegam .wpcf7-form { margin-top:50px; }
+
+
+
+.registraion-form-new {     width: 450px;
+    display: inline-block;
+    background: #ddd;
+    padding: 15px 15px; }
+	
+.registraion-form-new  .subtitle {     font-size: 14px;
+    color: #444;
+    font-weight: 600;
+    padding-bottom: 10px; } 	 
+.registraion-form-new  .title-lable  {     font-size: 14px;
+    color: #444;
+    font-weight: 600;
+    padding-bottom: 10px; } 	 
+	
+.registraion-form-new  {     width: 450px; display: inline-block; background: #f4f4f4;  padding: 15px 15px; }
+.registraion-form-new .inputs input {       height: 40px;  font-size: 14px;  padding: 5px 15px;  width:100%; margin-bottom:15px; }
+.registraion-form-new .inputs select {       height: 40px;  font-size: 14px;  padding: 5px 15px; width:100%; margin-bottom:15px;  }
+.registraion-form-new .inputs .countrycode select {      margin-bottom:15px; }
+.registraion-form-new .inputs   input[type=radio] { height:auto; }
+.registraion-form-new .inputs input[type=radio] {
+    height: auto;
+    display: inline-block;
+    width: 25px;
+    margin-bottom: 15px;
+}
+.registraion-form-new .inputs select#countrycode {
+    width: 100% !important;
+}
+
+.registraion-form-new.main_jp_form .modal-dialog.modal-lg  { width:495px; }
+.registraion-form-new.main_jp_form .modal-dialog.modal-lg  .registraion-form-new  input[type=radio] {
+    height: auto;
+    display: inline-block;
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+form[name=payuForm] { text-align:center; margin:50px 0px; }
+.page-template-paymentpayumoney_cegam {  }
+form[name=payuForm] table tr {  text-align:center; }    
+.mandatory_parameter {     border: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px;
+    width: 450px;
+    margin: 0 auto;
+    text-align: center; }
+.mandatory_parameter .common_tab { margin-bottom:15px;  }
+.mandatory_parameter .common_tab  input  { margin-bottom:15px;  }
+.mandatory_parameter tbody { width:100%; float:left; }
+.mandatory_parameter tbody tr { width:100%; float:left; }
+.mandatory_parameter tbody tr td { width:50%; float:left; }
+.mandatory_parameter tbody tr td  input { width:95%; float:left; }
+
+
+
+.mandatory_parameter { }
+#addition_user_details {  border-collapse: collapse; border:1px solid #ddd;  }
+#addition_user_details .user_first_row  { font-weight:bold; }
+#addition_user_details  tr td { border:1px solid #ddd; padding:7px; }
+/* .ttotal { text-align:right;     padding-right: 40px !important; } */
+#total_alum_amt { color:#fff; }
+#total_alum_amt:hover, #total_alum_amt:focus  { border-color:#ddd !important; outline:none; box-shadow:none; }
+#addition_user_details .user_first_row  td { font-weight:bold; font-size:15px; }
+/* .registraion-form-new.main_jp_form .persional-left .row { margin-left:0px !important; margin-right:0px !important; } */
+#add_more_user {     width: auto;
+    padding: 6px 15px;
+    margin-left: 25px !important;
+    font-size: 13px !important; }
+.thankyou_page {  }
+#votecountTable  thead tr td { font-weight:bold; font-size:15px;  }
+#votecountTable  tbody tr td {  font-size:15px !important;  }
+.payment_failer { font-size:21px; font-weight:bold;  }
+.btn.btn_registernow { background:#AD322D; font-size:21px; font-weight:bold; color:#fff; padding:10px 25px; border-radius:100px;  }
+/**/
+.thank_print {   background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; color:#fff !important; border-radius:4px !important;  margin: 10px;    display: inline-block;  }
+.thank_back {  background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important;  color:#fff !important; border:1px solid rgb(144, 84, 148) !important;  border-radius:4px !important;    margin: 10px;    display: inline-block; }
+.thank_print:hover, .thank_print:focus, .thank_print:active  { color:#fff; text-decoration:none; }
+.thank_back:hover, .thank_back:focus, .thank_back:active { color:#fff; text-decoration:none; }
+.thank_back span { color:#fff; text-decoration:none; }
+.payment_page { margin-top:30px; }
+#panelregdetails #addition_user_details  { position:relative; right:0px; }
+#addition_user_details .user_first_row {
+    font-weight: bold;
+    
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px !important;
+}
+.success_table thead tr  {  font-weight: bold;
+    background: #CB321A;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px !important;  }
+
+#memberregistration  .inputs  input[type="checkbox"] { width:auto !Important; height:auto !Important; } 	
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new { width:100%; }
+#memberregistration .fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new .col-sm-12:nth-child(3) { padding:0px !important; }
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new .inputs  input { border-radius:0px; }
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new .jobfield { height:40px; }
+#memberregistration .fieldset-cf7mls.cf7mls_current_fs .row { margin-left:0px; }
+
+#addition_user_details.payu_table  .user_first_row {      background-color: rgb(144, 84, 148) !important; color:#fff;  }
+.payment_payupageonly form input[type="submit"] { padding:7px 20px !important;     background-color: rgb(64, 140, 109); font-size:13px !important; border:1px solid rgb(64, 140, 109) !important;  }
+.payment_payupageonly form input[type="submit"]:hover {     background-color: rgb(83, 158, 127); }
+.payment_payupageonly form input[type="button"] { padding:7px 20px !important; background-color:rgb(135, 64, 140); font-size:13px !important; border:1px solid rgb(135, 64, 140) !important; }
+.payment_payupageonly form input[type="button"]:hover { background-color:rgb(144, 84, 148);  }
+
+.cegamuserForm label { width:auto !important; float:none !important; }
+.registraion-form-new.main_jp_form .inputs label input[type="radio"] { cursor:pointer; }
+.registraion-form-new.main_jp_form .inputs label  { cursor:pointer; }
+/**/
+.Ttotals tr { text-align:right !important;  }
+.Ttotals tr  td {     display: inline-block; width: 137px; font-weight: bold;  background: #dddd;  font-size: 16px;  }
+.payment_payupageonly #myModal  {  top:20%; }  
+
+.payment_payupageonly #myModal  .modal-dialog.modal-lg .btn.btn-default {     background-color: rgb(144, 84, 148);
+    border-radius: none !important;
+    border-radius: 4px !important;
+    color: #fff !Important;
+    border: 1px solid rgb(144, 84, 148) !important; }  
+.payment_payupageonly #myModal  .modal-dialog.modal-lg .btn.btn-primary.pay_cancel {  background-color: rgb(64, 140, 109); border:1px solid rgb(64, 140, 109); border-radius:4px !important; }  
+.payment_payupageonly #myModal  .modal-dialog.modal-lg .btn.btn-primary.pay_cancel:hover {  color:#fff !important; }  
+
+/**/
+.btn:hover, .btn:focus { outline:none !important; }
+#cegamuserForm #cegam_submit {     background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; border-radius:4px !important; }
+#sub_submit {     background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; border-radius:4px !important; }
+#reset_but {     background-color: rgb(64, 140, 109) !important; border:1px solid rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important;  border-radius:4px !important; }
+#backModal  .btn.btn-primary.pay_cancel {     background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; color:#fff; border:1px solid rgb(64, 140, 109) !important; border-radius:4px !important; }
+#resetModal  .btn.btn-default {   background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important;  color:#fff; border:1px solid rgb(144, 84, 148) !important;  border-radius:4px !important; }
+
+#cegamuserForm #add_more_user {   background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important; border-radius:4px !important; }
+#back_but {   background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important; border-radius:4px !important; }
+#backModal .btn.btn-default {   background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important;  color:#fff; border:1px solid rgb(144, 84, 148) !important; border-radius:4px !important; }
+#resetModal .btn.btn-primary.reset_ok {    background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; color:#fff; border:1px solid rgb(64, 140, 109) !important; border-radius:4px !important; }
+
+.registraion-form-new { border:2px solid rgb(144, 84, 148) !Important; }
+#backModal .modal-dialog.modal-lg { width:350px; }
+#resetModal .modal-dialog.modal-lg { width:350px; }
+.payment_payupageonly #myModal  .modal-dialog.modal-lg { width:350px; }  
+
+.modal.Additional_User_Details .btn.btn-default.btn_default_can {  background-color: rgb(144, 84, 148) !important; font-size: 13px !important;  padding: 7px 20px !important;  color:#fff; border:1px solid rgb(144, 84, 148) !important; border-radius:4px !important; }
+.registraion-form-new.main_jp_form .inputs label.error { text-align: left;
+    margin-left: 0px;
+    font-style: normal;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 10px; } 
+	
+.registraion-form-new.main_jp_form .inputs.designation_row1  {     position: relative;  margin-bottom: 15px; }
+.registraion-form-new.main_jp_form .inputs #designation-error  {    position: absolute; bottom: -13px; left:0px; }
+
+#panelregdetails {     display: block;  position: fixed; top: 30%; background:#fff; right:3%; }
+#panelregdetails  #addition_user_details  {   overflow-y:auto;  max-height:300px;  }
+.bottom_backbtn { display:block; text-align:left; margin-left:40px; }  
+.jp_new_content #addition_user_details .no_visblexs {     background-color: rgb(144, 84, 148) !important; }
+.jp_new_content #addition_user_details tr td { font-size:12px !Important;   border: 1px solid #ddd !Important;  padding: 7px !Important; }
+.jp_new_content #addition_user_details tr.no_visblexs td { color:#fff !important; }
+#total_alum_amt {  background-color: rgb(64, 140, 109) !important; font-size: 13px !important;  padding: 7px 20px !important; color:#fff; border:1px solid rgb(64, 140, 109) !important; border-radius:4px !important; }
+#total_alum_amt:hover { border:1px solid rgb(64, 140, 109) !important;  }
+#votecountTable.success_table thead tr  {   background-color: rgb(144, 84, 148) !important;  }
+#votecountTable.regs_table_only.success_table  tr td { font-size:12px !Important;   border: 1px solid #ddd !Important;  padding: 7px !Important; }
+/**28.may**/
+
+.home footer#footer {     margin-top: -60px !Important; }
+#post-334 .arial-view  { height:auto !important; }
+
+.registraion-form-new .inputs.inputs_topradio { position:relative; margin-bottom:25px; }
+.registraion-form-new .inputs.inputs_topradio  #salutation-error {   position: absolute; bottom: -18px; left:0px; }
+
+/**29.may**/
+#dinner_networking {     background-color: rgb(64, 140, 109) !important;
+    font-size: 11px !important;
+    padding: 3px 15px !important;
+    color: #fff;
+    border: 1px solid rgb(64, 140, 109) !important;
+    border-radius: 4px !important; }
+	
+.Additional_User_Details#dinnerModal .modal-dialog.modal-lg { width:350px; }
+#dinnerModal #add_dinner_fee  {  background-color: rgb(64, 140, 109) !important;
+    font-size: 13px !important;
+    padding: 7px 20px !important;
+    color: #fff;
+    border: 1px solid rgb(64, 140, 109) !important;
+    border-radius: 4px !important; }
+	
+.Additional_User_Details#dinnerModal .modal-dialog.modal-lg  .subtitle {     font-size: 24px;
+    line-height: 17px; }	
+.reg_padding { padding:50px 0px !important; }
+
+.page-id-68 .table.table-striped thead tr {  background-color: rgb(144, 84, 148) !important; }
+.page-id-68 .table.table-striped   tr td { font-size:12px !Important;   border: 1px solid #ddd !Important;  padding: 7px !Important; }
+.tablee_left { display:none; }
+.payment_payupageonly .modal { overflow-y:auto !important; }
+/**31.may**/
+
+	
+	
+@media only screen and (min-width : 992px) and (max-width: 1200px){ 
+#panelregdetails #addition_user_details   { position:relative; right:0px; }
+.page-template-registration_cegam .wpcf7-form {  margin-top: 101px; }
+.page-template-registration_cegam.page-template-registration_cegam-php #main-nav.fixed {
+    position: relative;
+    top: 0;
+}
+#panelregdetails {
+    display: block;
+    position: fixed;
+    top: 34%;
+    background: #fff;
+    right: 7%;
+}
+.payment_failer { margin-top:50px; }
+#panelregdetails {
+    display: block;
+    position: relative;
+    top: 0px;
+    background: #fff;
+    right: 0px;
+}
+.registraion-form-new { margin:0 auto; }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:768px){ 
+#panelregdetails #addition_user_details   { position:relative; right:0px; }
+.page-template-registration_cegam.page-template-registration_cegam-php #main-nav.fixed {
+    position: relative;
+    top: 0;
+}
+#panelregdetails {
+    display: block;
+    position: relative;
+    top: 0px;
+    background: #fff;
+    right: 0px;
+}
+
+
+}
+
+@media only screen and (max-width:767px){ 
+.registraion-form-new.main_jp_form { width:100%; }
+.registraion-form-new.main_jp_form .modal-dialog.modal-lg {  width: 90%; }
+.registraion-form-new { width:100% !important; }
+.reg_padding  { padding: 0px !important;  padding-left: 15px !important;  padding-right: 15px !important; }
+.modal-dialog.modal-lg .registraion-form-new .row { margin-left:0px !important; } 
+#votecountTable { margin-top:20px !Important; margin-bottom:20px !important; }
+/**/
+#add_more_user {
+    margin-left: 0px !important;
+    margin: 0 auto !important;
+    display: block;
+    text-align: center;
+    margin-top: 15px !important;
+}
+#cegam_submit {     margin: 0 auto; text-align: center;  display: block; }
+#panelregdetails #addition_user_details   { position:relative; right:0px;    overflow-y: auto;  max-height: 100%;  width: 100% !important; }
+
+/***/
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new  .reg-right.form-datas .inputs.col-sm-10 { padding:0px !important; }
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new  .reg-left.form-datas.col-xs-12 { padding:0px !important; }
+.fieldset-cf7mls.cf7mls_current_fs	.registraion-form-new  .reg-right.form-datas.col-xs-12 { padding:0px !important; }
+.payment_payupageonly { padding:50px 15px !Important; }
+
+#backModal .modal-dialog.modal-lg { width:90%; }
+#resetModal .modal-dialog.modal-lg { width:90%; }
+.payment_payupageonly #myModal  .modal-dialog.modal-lg { width:90%; }  
+.Additional_User_Details#dinnerModal .modal-dialog.modal-lg { width:90%; }
+.Additional_User_Details#dinnerModal .modal-dialog.modal-lg  .subtitle {  line-height: normal; }	
+#panelregdetails {
+    display: block;
+    position: relative;
+    top: 0px;
+    background: #fff;
+    right: 0px;
+}
+
+/**28.may**/
+#post-334 .arial-view video {
+    margin-top: 0;
+    height: 250px;
+}
+.payment_failer { padding:50px 30px !important; } 
+/**29.may**/
+.bottom_backbtn  { text-align:center; }
+
+
+#formsetdetails { overflow-x:auto; }
+#votecountTable { overflow-x:auto; }
+
+#votecountTable {
+    overflow-x: auto;
+    width: 390px !important;
+    display: block;
+}
+
+#votecountTable::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+#votecountTable::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+#votecountTable::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+#votecountTable::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+#votecountTable::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#addition_user_details {
+    overflow-x: auto;
+    width: 390px !important;
+    display: block;
+}
+
+#addition_user_details::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+#addition_user_details::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+#addition_user_details::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+#addition_user_details::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+#addition_user_details::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/**30.may**/
+.table_striped_NN { overflow:auto; border:0px !important; }
+.table_striped_NN  tbody {  width:100%; float:left;    } 
+.table_striped_NN  td {  width:100%; float:left;  } 
+.table_striped_NN  tr {  width:100%; float:left;     border-bottom: 10px solid #ccc; } 
+.table_striped_NN  td  .tablee_left {     width: 50% !Important;
+    float: left;
+    padding-top: 0px;
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
+    padding-right: 7px;     font-weight: bold;
+    font-size: 13px;  font-family: 'Open Sans', sans-serif; } 
+.table_striped_NN  td  .tablee_right { width:50% !Important; float:left; display:block; word-wrap: break-word;
+    white-space: normal;     font-weight: normal; font-size: 13px;  color: #000; font-family: 'Open Sans', sans-serif; } 
+.table_striped_NN thead tr .tabel_first { width:100%;  }
+.table_striped_NN .regs_table_only tbody tr.no_visblexs { display:none !important; }
+.table_striped_NN #addition_user_details .user_first_row { padding: 0px !important; }
+#cegamuserForm .registraion-form-new .row { float:none; width:auto; }
+/**31.may**/
+.table_striped_NN #addition_user_details .user_first_row.user_first_rownn	 { display:none; }
+.table_striped_NN #addition_user_details { width:100% !important;  }
+.table_striped_NN #addition_user_details  .Ttotals tr td { width:50% !important;  float:right; }
+#votecountTable  .user_first_rownn { display:none; }
+#votecountTable  tbody tr td  { float:left !important; }
+#votecountTable  tbody tr.ttransaction_table td  { float:left !important; width:50%; min-height:40px; font-family: 'Open Sans', sans-serif; font-weight:bold; }
+.payment_page.payment_pagenn { padding:50px 15px !Important; }
+
+}
