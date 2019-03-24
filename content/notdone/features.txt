@@ -1,0 +1,14 @@
+Employment state
+* Government
+* Private
+* Business
+* Retired (last worked with)
+
+1. Name of employer
+2. Designation
+3. Name of firm
+
+Payment ?
+Confirm with admin ?
+
+That's it for today have a great day :)
